@@ -1,4 +1,4 @@
-# Server Sent Events in spring WebFlux
+# Server Sent Events in Spring WebFlux
 
 <br>
 
