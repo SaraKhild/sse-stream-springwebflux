@@ -26,6 +26,15 @@ public class WeatherService {
 
     }
 
+    //------------------------------------another way---------------------------------------
+    // public Flux<WeatherEvent> streamWeather() {
+    //     return Flux.interval(Duration.ofSeconds(1))
+    //             .map(interval -> new WeatherEvent(
+    //                     new Weather(getTemprature(), getHumidity(), getWindSpeed()),
+    //                     LocalDateTime.now()
+    //             ));
+    // }
+
     private String getWindSpeed() {
         String[] windSpeeds = "100 km/h,101 km/h, 102 km/h,103 km/h, 104 km/h".split(",");
         return windSpeeds[new Random().nextInt(windSpeeds.length)]; // Picking a random element from the array
