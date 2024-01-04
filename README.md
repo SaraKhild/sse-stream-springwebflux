@@ -3,7 +3,7 @@
 <br>
 
 ## Overview
-In the world of web development, real-time communication between a server and its clients is crucial.<br>This brings us to SSE is a standard that allows a server to push updates to a client whenever there’s new data available.<br>In this project, I have implemented a simple example that provides updates about the current temperature, humidity, and wind speed of the weather. These updates are sent to the client every second.
+In the world of web development, real-time communication between a server and its clients is crucial.<br>This brings us to SSE is a standard that allows a server to push updates to a client whenever there’s new data available.<br><br>In this project, I have implemented a simple example that provides updates about the current temperature, humidity, and wind speed of the weather. These updates are sent to the client every second.
  
  <br>
  
